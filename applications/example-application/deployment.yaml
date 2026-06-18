@@ -15,9 +15,9 @@ spec:
       containers:
       - name: example-application
 <<<<<<< HEAD:applications/example-application/deployment.yml
-        image: docker.io/YOUR_USERNAME/example-application:v1.0.1
+        image: docker.io/kamalkharel5/example-application:v1.0.1
 =======
-        image: docker.io/kamalkharel5/example-application:v1.0.0
+        image: docker.io/kamalkharel5/example-application:v1.0.0.1
 >>>>>>> 02135a2199150592d33d4d1214657ccab504b70f:applications/example-application/deployment.yaml
         ports:
         - containerPort: 8080
